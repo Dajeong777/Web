@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"
+          name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0, minimum-scale=1.0,user-scalable=no" />
+    <title></title>
+    
+    <style>
+        * { margin:0; padding:0; }
+        body { font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        li { list-style:none }
+        a { text-decoration:none; }
+
+        #main_header {
+            height: 45px;
+            background:url('img/bg_header.png');
+
+            position:relative;
+            text-align:center;
+            line-height:45px;
+        }
+
+        #main_header > h1 {
+            color:#ffffff;
+        }
+
+        #main_header > a, #main_header label {
+            display:block;
+            height:32px;
+            position:absolute;
+        }
+
+        #main_header > a.left {
+            width:80px;
+            left:10px; top:7px;
+        }
+        #main_header > label.right {
+            width:64px;
+            right:10px; top:7px;
+        }
+
+        #toggle { display:none; }
+
+        #gnb_wrap {  display:none; border:10px solid #333333; }
+        #toggle:checked ~ #wrap > #gnb_wrap { display:block; }
+        #gnb ul { background-color:#ffffff; overflow:hidden; }
+        #gnb ul li {
+            float:left;
+            margin:10px 20px;
+            padding:0; padding-right:40px;
+            text-align:center;
+            font-size:1.1em;
+            border:1px solid #cccccc;
+            box-sizing:border-box;
+        }
+
+        #lnb { height:60px; background-color:#137163;}
+        #lnb ul { overflow:hidden; }
+        #lnb ul li { 
+            float:left;
+            width:20%;
+            height:60px;
+            line-height:60px;
+            color:#ffffff;
+            font-weight:bold;
+            font-size:1.2em;
+            text-align:center;
+            border:1px solid #cccccc;
+            box-sizing:border-box;
+        }
+        #lnb ul li a { color:#ffffff; }
+
+        #section { padding:10px; color:#303030; }
+
+        #section_body p:nth-child(1) {
+            color:#3da4e8;
+            font-weight:bold;
+            font-size:1.1em;
+            padding:10px 0;
+        }
+
+        #section_body p:nth-child(2) { 
+            background-image:url('img/visual14.jpg');
+            background-repeat:no-repeat;
+            background-position-x:-600px;
+        }
+
+        #footer {
+            padding:10px;
+        }
+
+        #footer .logo {
+            border-top:1px solid #5e5e5e;
+            border-bottom:1px solid #5e5e5e;
+            padding:10px 0;
+            text-align:center;
+        }
+
+        #footer .info {
+            padding-top:10px;
+            font-size:1.3em; font-weight:bold;
+            text-align:center;
+
+        }
+
+        #footer .addr { text-align:center; color:#515151; font-size:.9em; }
+
+        
+    
+    </style>
+</head>
+<body>
+    <input id="toggle" type="checkbox" />
+    <div id="wrap">
+        <header id="main_header">
+            <a class="left" href="#none"><img src="img/category.png" alt="category"/></a>
+            <h1>Mobile</h1>
+            <label class="right" for="toggle" onclick=""><img src="" alt="menu" /></label>
+        </header>
+        
+       <div id="gnb_wrap">
+            <div id="gnb">
+                <ul>
+                    <li><a href="#none">gnb01</a></li>
+                    <li><a href="#none">gnb02</a></li>
+                    <li><a href="#none">gnb03</a></li>
+                    <li><a href="#none">gnb04</a></li>
+                    <li><a href="#none">gnb05</a></li>
+                    <li><a href="#none">gnb06</a></li>
+                    <li><a href="#none">gnb07</a></li>
+                    <li><a href="#none">gnb08</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="lnb_wrap">
+            <div id="lnb">
+                <ul>
+                    <li><a href="#none">lnb01</a></li>
+                    <li><a href="#none">lnb02</a></li>
+                    <li><a href="#none">lnb03</a></li>
+                    <li><a href="#none">lnb04</a></li>
+                    <li><a href="#none">lnb05</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div id="section_header">
+                <h1>하이서울브랜드</h1>
+                <hr />
+            </div>
+            <div id="section_body">
+                <p>
+                    하이서울브랜드 안녕하세요. <br />
+                    내일은 금요일 하루만 더 힘내자.<br />
+                </p>
+                
+                <p>
+                    동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세. 
+                    남산 위에 저 소나무 철갑을 두른 듯 바람서리 불변함은 우리 기상일세. 
+                    가을 하늘 공활한데 높고 구름 없이 밝은 달은 우리 가슴 일편단심일세. 
+                    이 기상과 이 맘으로 충성을 다하여 괴로우나 즐거우나 나라 사랑하세.
+                    
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+                </p>
+        </div>
+    </div>
+    
+    <footer id="footer">
+        <div class="logo"><img src="https://image.chosun.com/sitedata/image/202010/27/2020102700087_0.jpg" width=200></div>
+        <div class="info">Gikimi-SW</div>
+        <div class="addr">서울시 00구 00동 00빌딩</div>
+        
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+

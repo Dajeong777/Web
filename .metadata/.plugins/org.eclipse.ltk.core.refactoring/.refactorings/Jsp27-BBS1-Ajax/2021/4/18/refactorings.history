@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.study.jsp.b&apos; to &apos;BFrontController&apos;&#x0D;&#x0A;- Original project: &apos;Jsp27-BBS1-Ajax&apos;&#x0D;&#x0A;- Original element: &apos;com.study.jsp.b&apos;&#x0D;&#x0A;- Renamed element: &apos;com.study.jsp.BFrontController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;b&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.study.jsp{b.java[b" matchStrategy="1" name="BFrontController" qualified="false" references="true" similarDeclarations="false" stamp="1619401504778" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+     <form action="PostMethod" method="get"> //맵핑정보 가리니, PostMethod는 대소문자 구분
+        <input type="submit" value="get">
+    </form>
+    
+    <form action="PostMethod" method="post">
+        <input type="submit" value="post">
+    </form>    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>XMLHttpRequest</title>
+</head>
+<body>
+    <script>
+        //XMLHttpRequest 객체를 생성합니다.
+        var request = new XMLHttpRequest();
+        request.onreadystatechange = function (event) {
+        	if (request.readyState == 4) { //문서를 다 받았다는 의미, 200 정상 입력
+        		if (request.status == 200) { //404 notfound, 403 포피든 권한없음, 401 서버에러
+        			document.body.innerHTML +=request.responseText;	
+        		};
+        	};
+        };
+        request.open('GET', '/data.html', true);
+        request.send();
+    </script>
+</body>
+</html>

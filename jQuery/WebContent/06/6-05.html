@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>XMLHttpRequest</title>
+</head>
+<body>
+    <script>
+        //XMLHttpRequest 객체를 생성합니다.  ,콘솔로그 통해 확인, alert대신
+        var request = new XMLHttpRequest();
+        request.onreadystatechange = function (event) {
+        	//출력합니다.
+            //alert(request.readyState);
+            console.log(request.readyState);
+        };
+        request.open('GET', '/data.html', false);
+        request.send();
+    </script>
+        
+</body>
+</html>

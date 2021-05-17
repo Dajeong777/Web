@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            //$('img').first().appendTo('body');
+            $('img').css('width' , 250);
+            
+            //함수를 2초마다 실행합니다.
+            setInterval(function () {
+            	//첫 번째 이미지를 마지막으로 보냅니다.
+            	$('img').first().appendTo('body');
+            },2000);
+        });
+    </script>
+</head>
+<body>
+    <img src="Chrysanthemum.png"/>
+    <img src="Desert.png"/>
+    <img src="Hydrangeas.png"/>
+    <img src="Jellyfish.png"/>
+    <img src="Koala.png"/>
+</body>
+</html>

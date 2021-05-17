@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jQuert Ajax Basic</title>
+    <script src="http://code.jquery.com/jquery.js"></script>
+</head></head>
+<body>
+    <script>
+        $(document).ready(function () {
+        	$.ajax('/data.html', {
+        		success: function (data) { 
+        			$('body').append(data);
+        		}
+        	});
+        });
+    </script>
+</body>
+
+</html>

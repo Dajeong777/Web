@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.study.com&apos; to &apos;com.study.jsp&apos;&#x0D;&#x0A;- Original project: &apos;Jsp25_4_ajax&apos;&#x0D;&#x0A;- Original element: &apos;Jsp25_4_ajax/src/com.study.com&apos;&#x0D;&#x0A;- Renamed element: &apos;Jsp25_4_ajax/src/com.study.jsp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.study.com&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.study.com" name="com.study.jsp" qualified="false" references="true" stamp="1619139002559" textual="false" version="1.0"/>
+</session>

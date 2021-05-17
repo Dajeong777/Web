@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;BPageInfo.java&apos; to &apos;Jsp27-BBS2_ajaxtry/src/com.study.jsp.dto&apos;&#x0D;&#x0A;- Original project: &apos;Jsp27-BBS2_ajaxtry&apos;&#x0D;&#x0A;- Destination element: &apos;Jsp27-BBS2_ajaxtry/src/com.study.jsp.dto&apos;&#x0D;&#x0A;- Original element: &apos;com.study.jsp.BPageInfo.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.study.jsp.dto" element1="/src&lt;com.study.jsp{BPageInfo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1619770805029" units="1" version="1.0"/>
+</session>

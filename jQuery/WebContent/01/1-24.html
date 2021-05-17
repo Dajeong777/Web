@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .high_light {
+            background:Yellow;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script>
+        //플러그간의 충돌으 제거합니다.
+        $.noConflict();
+        var J = jQuery;
+        //jQuery를 사용합니다.
+        $(document).ready(function () {
+        	J('h1').removeClass('hight_light');
+        });
+    </script>
+</head>
+<body>
+    <h1 class="high_light">item - 0</h1>
+    <h2 class="high_light">item - 1</h2>
+</body>
+</html>

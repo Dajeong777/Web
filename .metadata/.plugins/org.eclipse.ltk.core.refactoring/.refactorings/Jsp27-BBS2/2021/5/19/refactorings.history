@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;board&apos;&#x0D;&#x0A;- Original project: &apos;Jsp27-BBS2&apos;&#x0D;&#x0A;- Destination element: &apos;board&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     login.jsp&#x0D;&#x0A;     list.jsp&#x0D;&#x0A;     reply_view.jsp&#x0D;&#x0A;     write_view.jsp&#x0D;&#x0A;     content_view.jsp&#x0D;&#x0A;     modify_view.jsp" description="Copy files" element1="WebContent/login.jsp" element2="WebContent/list.jsp" element3="WebContent/reply_view.jsp" element4="WebContent/write_view.jsp" element5="WebContent/content_view.jsp" element6="WebContent/modify_view.jsp" files="6" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1620007221511" target="/1Web_DJ/WebContent/board" units="0" version="1.0"/>
+</session>

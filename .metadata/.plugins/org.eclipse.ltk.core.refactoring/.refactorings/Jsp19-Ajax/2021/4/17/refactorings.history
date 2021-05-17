@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Jsp19-Ajax/WebContent/joinResult.jsp&apos; to &apos;join.jsp&apos;" description="Rename resource &apos;joinResult.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/joinResult.jsp" name="join.jsp" stamp="1618973114124" updateReferences="true"/>
+</session>
